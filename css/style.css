@@ -57,7 +57,7 @@ header .topbtn2:hover {
 }
 
 .firstbody .firstbody-row h1 {
-  margin-top: 113px;
+  margin-top: 200px;
   background: linear-gradient(90deg, #AE67FA 0%, #F49867 97.4%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -437,18 +437,286 @@ header .topbtn2:hover {
 @media screen and (max-width: 767px) {
   .firstbody .firstbody-row .letbuild-h1 {
     font-size: 40px !important;
+    margin-top: 43px !important;
   }
   .firstbody .firstbody-row .yet-bed {
     font-size: 15px !important;
   }
-  .firstbody .firstbody-row .form {
-    margin-top: 22px !important;
+  .firstbody .firstbody-row form {
+    display: block;
   }
-  .firstbody .firstbody-row .form .input {
+  .firstbody .firstbody-row form input {
+    width: 100% !important;
+    border-radius: 0;
+    text-align: center;
+    padding: 9px 0 18px 0px;
+  }
+  .firstbody .firstbody-row form button {
+    width: 100% !important;
+    padding: 9px 0 18px 0px;
+    border-radius: 0;
+    margin: auto;
+  }
+  .firstbody .firstbody-row .group-people {
+    display: block;
+  }
+  .firstbody .firstbody-row .group-people p {
+    font-size: 15px;
+    margin-top: -11px;
+  }
+  .firstbody .firstbody-row .group-people img {
+    width: 50%;
+    height: 20px;
+    text-align: center;
+    margin-top: -28px;
+  }
+  .group-logo img {
+    margin-right: 15px;
+    margin-bottom: 17px;
+  }
+  .sec-two .what-gpt .possiexplore-sec .possi-h3 {
+    font-size: 30px;
+  }
+  .sec-two .what-gpt .group-chatbots .chatbots-sec .chat-p {
+    margin-top: 12px;
+  }
+  .sec-two .what-gpt .group-chatbots .knowledge-sec {
+    margin-top: -30px;
+  }
+  .sec-two .what-gpt .group-chatbots .knowledge-sec .knowledge-p {
+    margin-top: 19px;
+  }
+  .sec-two .what-gpt .group-chatbots .edu-sec {
+    margin-top: -30px;
+  }
+  .sec-two .what-gpt .group-chatbots .edu-sec .edu-p {
+    margin-top: 19px;
+  }
+  .sec-third .third-subsection .future-h3 {
+    margin-top: -30px;
+  }
+  .sec-third .third-subsection .request-p {
+    font-size: 13px;
+  }
+  .fourth-sec .fourthsec-sub .four-subsection {
+    margin-top: 10px;
+  }
+  .fifth-sec .fifth-subsec .sec-five-btn {
+    padding: 6px 25px;
+    margin-top: 16PX;
+    border-radius: 24px;
+  }
+  .alot-sec .alot-subsec .alot-h3 {
+    font-size: 34px;
+  }
+  .alot-sec .alot-subsec .alot-h3 br {
+    display: none;
+  }
+  .alot-sec .alot-subsec .alot-h3 .Rec-section .rec1-image {
+    height: 360px;
+  }
+  .alot-sec .alot-subsec .firstlong-sec {
+    margin-top: 30px;
+  }
+  .alot-sec .alot-subsec .firstsec-side1 {
+    margin-top: 30px !important;
+  }
+  .alot-sec .alot-subsec .firstsec-side2 {
+    margin-top: 30px !important;
+  }
+  .last-sec .last-page h2 {
+    font-size: 45px !important;
+  }
+  .last-sec .last-page h2 br {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .firstbody form input {
     width: 65% !important;
   }
-  .firstbody .firstbody-row .form .button {
-    width: 40% !important;
+  .firstbody form button {
+    width: 25% !important;
+  }
+  .sec-two .possiexplore-sec {
+    margin-top: 30px !important;
+  }
+  .sec-two .possiexplore-sec .possi-h3 {
+    font-size: 50px !important;
+  }
+  .sec-two .explore-para {
+    font-size: 20px !important;
+  }
+  .sec-two .group-chatbots {
+    margin-top: 20px !important;
+  }
+  .sec-two .group-chatbots p {
+    font-size: 20px !important;
+  }
+  .sec-two .group-chatbots .chatbots-sec .chat-p {
+    margin-top: 20px !important;
+  }
+  .sec-two .group-chatbots .knowledge-sec {
+    margin-top: -9px !important;
+  }
+  .sec-two .group-chatbots .knowledge-sec .knowledge-p {
+    margin-top: 20px !important;
+  }
+  .sec-two .group-chatbots .edu-sec {
+    margin-top: -9px !important;
+  }
+  .sec-two .group-chatbots .edu-sec .edu-p {
+    margin-top: 20px !important;
+  }
+  .sec-third .rightside-sec p {
+    font-size: 20px !important;
+  }
+  .fourth-sec .fourthsec-sub .fourthsec-img {
+    margin-top: 45px;
+  }
+  .fourth-sec .four-subsection {
+    margin-top: 40px !important;
+  }
+  .fifth-sec {
+    margin-bottom: 40px;
+  }
+  .fifth-sec .rowfifth-subsec .request-early-p {
+    font-size: 16px !important;
+  }
+  .fifth-sec .rowfifth-subsec .sec-five-btn {
+    padding: 15px 40px !important;
+    border-radius: 30px !important;
+    font-weight: 700 !important;
+  }
+  .alot-sec .alot-subsec .alot-h3 {
+    margin-bottom: 37px !important;
+  }
+  .alot-sec .alot-subsec .Rec-section .firstlong-sec {
+    margin-bottom: 40px !important;
+  }
+  .alot-sec .alot-subsec .Rec-section .firstsec-side1 {
+    margin-bottom: 40px !important;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  Header .all-mynav {
+    margin-left: 20px !important;
+    padding: 0;
+  }
+  Header a {
+    font-size: 15px !important;
+    margin-right: 3px !important;
+  }
+  Header .topbtn1 {
+    margin-right: 23px !important;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  Header .topbtn2 {
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 8px 21px;
+  }
+  .firstbody .letbuild-h1 {
+    font-size: 50px !important;
+    margin-top: 79px !important;
+  }
+  .firstbody .yet-bed {
+    font-size: 15px !important;
+    margin-top: 20px !important;
+  }
+  .firstbody form {
+    display: flex;
+    margin-top: 30px !important;
+  }
+  .firstbody form input {
+    border-radius: 5px 0px 0px 5px;
+    width: 70% !important;
+    padding: 18px 0 18px 28px;
+  }
+  .firstbody form button {
+    width: 30% !important;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-weight: 700;
+    transition: all 0.5s ease;
+  }
+  .firstbody .group-people p {
+    margin-top: -3px !important;
+  }
+  .firstbody .group-people img {
+    height: 38px;
+    left: 0;
+    top: 0;
+    width: 30% !important;
+  }
+  .group-logo {
+    margin-top: 30px !important;
+  }
+  .sec-two .what-gpt .sectwo-p2 .weso-opi {
+    font-size: 18px !important;
+  }
+  .sec-two .possiexplore-sec {
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
+  }
+  .sec-two .possiexplore-sec .possi-h3 {
+    font-size: 28px !important;
+  }
+  .sec-two .group-chatbots p {
+    margin-top: 15px !important;
+  }
+  .sec-third .third-subsection .future-h3 {
+    font-size: 29px !important;
+  }
+  .sec-third .third-subsection .middlerow-sec p {
+    font-size: 15px !important;
+  }
+  .sec-third .third-subsection .rightside-sec p {
+    font-size: 13px !important;
+  }
+  .fourth-sec .four-subsection {
+    margin-top: 81px !important;
+  }
+  .fourth-sec .four-subsection .request-p {
+    font-size: 15px !important;
+  }
+  .fourth-sec .four-subsection .possi-four-h3 {
+    font-size: 33px;
+  }
+  .fourth-sec .four-subsection .yet-p {
+    font-size: 15px;
+  }
+  .fifth-sec .fifth-subsec .btn-rowside {
+    width: 50% !important;
+  }
+  .fifth-sec .fifth-subsec .rowfifth-subsec {
+    display: block;
+  }
+  .fifth-sec .fifth-subsec .sec-five-btn {
+    padding: 1px 53px !important;
+    border-radius: 30px !important;
+    font-weight: 700 !important;
+    margin-top: 24px;
+  }
+  .alot-sec .alot-subsec {
+    margin-top: 30px !important;
+  }
+  .alot-sec .alot-subsec .alot-h3 {
+    font-size: 44px;
+    margin-bottom: 40px;
+  }
+  .alot-sec .alot-subsec .Rec-section .big-blueside-rec {
+    height: 341px !important;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 2600px) {
+  .firstbody .letbuild-h1 {
+    margin-top: 129px !important;
+  }
+  .alot-sec .Rec-section .big-blueside-rec {
+    height: 341px !important;
   }
 }
 
