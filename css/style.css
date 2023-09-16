@@ -330,7 +330,7 @@ header .topbtn2:hover {
 }
 .alot-sec .Rec-section .big-blueside-rec {
   background-color: rgb(4, 44, 84);
-  height: 395px;
+  height: 200px;
   position: relative;
 }
 .alot-sec .Rec-section .big-blueside-rec .rec1-date {
@@ -515,6 +515,12 @@ header .topbtn2:hover {
   .alot-sec .alot-subsec .alot-h3 .Rec-section .rec1-image {
     height: 360px;
   }
+  .alot-sec .alot-subsec .big-blueside-rec {
+    height: 300px !important;
+  }
+  .alot-sec .alot-subsec .big-blueside-rec .rec1-h3 {
+    font-size: 20px !important;
+  }
   .alot-sec .alot-subsec .firstlong-sec {
     margin-top: 30px;
   }
@@ -522,6 +528,12 @@ header .topbtn2:hover {
     margin-top: 30px !important;
   }
   .alot-sec .alot-subsec .firstsec-side2 {
+    margin-top: 30px !important;
+  }
+  .alot-sec .alot-subsec h4 {
+    font-size: 16px !important;
+  }
+  .alot-sec .alot-subsec .topread-full, .alot-sec .alot-subsec .read-full {
     margin-top: 30px !important;
   }
   .last-sec .last-page h2 {
@@ -596,6 +608,12 @@ header .topbtn2:hover {
   }
   .alot-sec .alot-subsec .Rec-section .firstsec-side1 {
     margin-bottom: 40px !important;
+  }
+  .alot-sec .alot-subsec .Rec-section .read-full, .alot-sec .alot-subsec .Rec-section .topread-full {
+    margin-top: 50px;
+  }
+  .big-blueside-rec {
+    height: 300px !important;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
@@ -711,12 +729,21 @@ header .topbtn2:hover {
     height: 341px !important;
   }
 }
-@media screen and (min-width: 1201px) and (max-width: 2600px) {
+@media screen and (min-width: 1201px) and (max-width: 2800px) {
   .firstbody .letbuild-h1 {
     margin-top: 129px !important;
   }
-  .alot-sec .Rec-section .big-blueside-rec {
-    height: 341px !important;
+  .alot-sec .Rec-section {
+    height: 100% !important;
+  }
+  .alot-sec .Rec-section .firstlong-sec {
+    height: 100% !important;
+  }
+  .alot-sec .Rec-section .firstlong-sec .big-blueside-rec {
+    height: 50% !important;
+  }
+  .alot-sec .Rec-section .small-blue {
+    height: 50% !important;
   }
 }
 

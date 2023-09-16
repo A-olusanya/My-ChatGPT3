@@ -12,17 +12,7 @@
 }
 $ayo-bg-color:360deg, #002853 0%, #040c18 97.40%;
 $font-orangexpurple:linear-gradient(90deg, #AE67FA 0%, #F49867 97.40%);
-// @mixin breakpoint($point) {
-//     @if $point == Large screen {
-//       @media (max-width: 1600px) { @content; }
-//     }
-//     @else if $point ==  Large {
-//       @media (max-width: 1250px) { @content; }
-//     }
-//     @else if $point == medium {
-//       @media (max-width: 650px)  { @content; }
-//     }
-//   }
+
 .row{
     margin: 0 !important;
 }
@@ -442,7 +432,7 @@ header{
         }
         .big-blueside-rec{
             background-color: rgba(4, 44, 84, 1);
-            height: 395px;
+            height: 200px;
             position: relative;
             .rec1-date{
                 position: absolute;
@@ -710,6 +700,12 @@ header{
 
                 }
             }
+            .big-blueside-rec{
+                height: 300px !important;
+                .rec1-h3{
+                    font-size: 20px !important;
+                }
+            }
             .firstlong-sec{
                 margin-top: 30px;
             }
@@ -717,6 +713,12 @@ header{
                 margin-top: 30px !important;
             }
             .firstsec-side2{
+                margin-top: 30px !important;
+            }
+            h4{
+                font-size: 16px !important;
+            }
+            .topread-full, .read-full{
                 margin-top: 30px !important;
             }
         }
@@ -833,11 +835,20 @@ header{
                }
                .firstsec-side1{
                     margin-bottom: 40px !important;
-               }   
+               }
+               .read-full, .topread-full{
+                margin-top: 50px;
+               }  
+
             }
              
         }
+        
     }
+    .big-blueside-rec{
+        height: 300px !important;
+    }
+
    
 }
 
@@ -1023,19 +1034,30 @@ header{
 
 }
 
-@media screen and (min-width: 1201px) and (max-width: 2600px){
+@media screen and (min-width: 1201px) and (max-width: 2800px){
         .firstbody{
             .letbuild-h1{
                 margin-top: 129px !important;
             }
             
         }
+        
         .alot-sec{
             .Rec-section {
-                .big-blueside-rec {
-                    height: 341px !important;
+                height: 100% !important;
+                .firstlong-sec{
+                    height: 100% !important;
+                    .big-blueside-rec {
+                        height: 50% !important;
+                    }
+        
                 }
-    
+                .small-blue{
+                    height: 50% !important;
+                }
+
+
+                
             }
         }
        
